@@ -10,9 +10,4 @@ export class AppComponent {
   title = 'my-first-app';
 
   constructor(private service: TransferenciaService) {}
-
-  transferir($event)
-  {
-    this.service.adicionar($event);
-  }
 }
